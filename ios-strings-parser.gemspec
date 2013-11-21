@@ -1,9 +1,9 @@
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
-require 'strings-parser/version'
+require 'ios-strings-parser/version'
 
 Gem::Specification.new do |s|
-  s.name     = "strings-parser"
-  s.version  = ::StringsParser::VERSION
+  s.name     = "ios-strings-parser"
+  s.version  = ::IosStringsParser::VERSION
   s.authors  = ["Cameron Dutro"]
   s.email    = ["cdutro@twitter.com"]
   s.homepage = "http://twitter.com"

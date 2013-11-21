@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-module StringsParser
+module IosStringsParser
 
   grammar Strings
     rule string_list

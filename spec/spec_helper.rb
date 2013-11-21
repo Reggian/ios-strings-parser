@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
 require "rspec"
-require "strings-parser"
+require "ios-strings-parser"
 
 RSpec.configure do |config|
   config.mock_with(:rr)

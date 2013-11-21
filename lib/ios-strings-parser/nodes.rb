@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-module StringsParser
+module IosStringsParser
 
   Comment = Struct.new(:text)
   StringPair = Struct.new(:meta_key, :key)

@@ -3,7 +3,7 @@
 require 'spec_helper'
 require 'yaml'
 
-include StringsParser
+include IosStringsParser
 
 describe Parser do
   def encoding_for(file)
@@ -50,7 +50,7 @@ describe Parser do
 
   Dir.glob(File.join(fixture_dir, "**/*.strings")).each do |fixture_file|
     it "should parse #{fixture_file} correctly" do
-      parser = StringsParser::Parser.new
+      parser = IosStringsParser::Parser.new
       data = File.read(fixture_file)
         .force_encoding(encoding_for(fixture_file))
         .encode(Encoding::UTF_8)
