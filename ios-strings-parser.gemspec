@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
 
   s.require_path = 'lib'
 
-  gem_files = Dir["{lib,spec}/**/*", "Gemfile", "History.txt", "LICENSE", "Rakefile", "strings-parser.gemspec"]
+  s.files = Dir["{lib,spec}/**/*", "Gemfile", "History.txt", "LICENSE", "Rakefile", "ios-strings-parser.gemspec"]
 end
