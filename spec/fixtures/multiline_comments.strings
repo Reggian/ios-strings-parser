@@ -1,0 +1,10 @@
+/* 
+  Localization.strings
+  our-amazing-product
+
+  Created by Foo Bar on 3/28/13.
+  Copyright (c) 2013 ABC Enterprises, Inc.
+*/
+
+"UniversalCancel" = "Cancel";
+"UniversalOkay" = "OK";

@@ -1,0 +1,124 @@
+utf8.strings:
+  - meta_key: "UniversalProfilePhotoSet"
+    key: "Set profile photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoChooseExisting"
+    key: "Choose existing photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoTakeNew"
+    key: "Take new photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoRemove"
+    key: "Remove photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateSuccess"
+    key: "Profile photo updated"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateFailed"
+    key: "Couldn't update photo"
+    type: StringPair
+
+utf16le.strings:
+  - meta_key: "UniversalProfilePhotoSet"
+    key: "Set profile photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoChooseExisting"
+    key: "Choose existing photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoTakeNew"
+    key: "Take new photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoRemove"
+    key: "Remove photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateSuccess"
+    key: "Profile photo updated"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateFailed"
+    key: "Couldn't update photo"
+    type: StringPair
+
+utf16be.strings:
+  - meta_key: "UniversalProfilePhotoSet"
+    key: "Set profile photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoChooseExisting"
+    key: "Choose existing photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoTakeNew"
+    key: "Take new photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoRemove"
+    key: "Remove photo"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateSuccess"
+    key: "Profile photo updated"
+    type: StringPair
+  - meta_key: "UniversalProfilePhotoUpdateFailed"
+    key: "Couldn't update photo"
+    type: StringPair
+
+multiline_comments.strings:
+  - text: " \n  Localization.strings\n  our-amazing-product\n\n  Created by Foo Bar on 3/28/13.\n  Copyright (c) 2013 ABC Enterprises, Inc.\n"
+    type: Comment
+  - meta_key: "UniversalCancel"
+    key: "Cancel"
+    type: StringPair
+  - meta_key: "UniversalOkay"
+    key: "OK"
+    type: StringPair
+
+extra_spaces.strings:
+  - meta_key: "UniversalCancel"
+    key: "Cancel"
+    type: StringPair
+  - meta_key: "UniversalOkay"
+    key: "OK"
+    type: StringPair
+
+extra_newlines.strings:
+  - meta_key: "NavMenuTitleHome"
+    key: "Home"
+    type: StringPair
+  - meta_key: "NavMenuTitleExplore"
+    key: "Explore"
+    type: StringPair
+  - meta_key: "NavMenuTitleActivity"
+    key: "Activity"
+    type: StringPair
+  - meta_key: "NavMenuTitleProfile"
+    key: "Profile"
+    type: StringPair
+
+wacky.strings:
+  - meta_key: "NavMenuTitleHome"
+    key: "Home"
+    type: StringPair
+  - meta_key: "NavMenuTitleExplore"
+    key: "Explore"
+    type: StringPair
+  - meta_key: "NavMenuTitleActivity"
+    key: "Activity"
+    type: StringPair
+  - text: " craziness"
+    type: Comment
+  - text: "weird\n"
+    type: Comment
+  - meta_key: "NavMenuTitleProfile"
+    key: "Profile"
+    type: StringPair
+  - meta_key: "UniversalCancel"
+    key: "Cancel"
+    type: StringPair
+  - meta_key: "UniversalOkay"
+    key: "OK"
+    type: StringPair
+  - text: " multiline\nfoo foo foo, bar bar bar "
+    type: Comment
+  - text: " lolololololololol "
+    type: Comment
+  - meta_key: "SignUpNoPhotoAlertCancel"
+    key: "Skip"
+    type: StringPair
+  - text: "blarg\n"
+    type: Comment

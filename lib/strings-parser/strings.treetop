@@ -1,0 +1,47 @@
+# encoding: UTF-8
+
+module StringsParser
+
+  grammar Strings
+    rule string_list
+      bom? (string / comment / [\s])* <StringList>
+    end
+
+    rule bom
+      "\uFEFF" / "\uFFFE"
+    end
+
+    rule comment
+      single_line_comment / multi_line_comment
+    end
+
+    rule single_line_comment
+      "//" ([^\n\r] .)* <CommentNode>
+    end
+
+    rule multi_line_comment
+      "/*" (!"*/" .)* "*/" <CommentNode>
+    end
+
+    rule string
+      meta_key [\s]* "=" [\s]* key [\s]* ";" <StringNode>
+    end
+
+    rule key
+      single_quoted_string / double_quoted_string
+    end
+
+    rule meta_key
+      single_quoted_string / double_quoted_string
+    end
+
+    rule double_quoted_string
+      '"' ('\"' / !'"' .)* '"'
+    end
+
+    rule single_quoted_string
+      "'" ("\\'" / !"'" .)* "'"
+    end
+  end
+
+end

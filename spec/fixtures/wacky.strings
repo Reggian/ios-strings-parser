@@ -1,0 +1,21 @@
+ "NavMenuTitleHome" = "Home";
+
+
+"NavMenuTitleExplore" =  "Explore";
+"NavMenuTitleActivity"  = "Activity";
+
+// craziness
+//weird
+
+"NavMenuTitleProfile" = "Profile";
+
+"UniversalCancel"                    = "Cancel";       
+       "UniversalOkay"                                 = "OK";
+
+
+        /* multiline
+foo foo foo, bar bar bar */
+/* lolololololololol */
+
+"SignUpNoPhotoAlertCancel"                      = "Skip";
+//blarg

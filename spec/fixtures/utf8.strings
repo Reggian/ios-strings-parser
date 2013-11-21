@@ -1,0 +1,6 @@
+"UniversalProfilePhotoSet" = "Set profile photo";
+"UniversalProfilePhotoChooseExisting" = "Choose existing photo";
+"UniversalProfilePhotoTakeNew" = "Take new photo";
+"UniversalProfilePhotoRemove" = "Remove photo";
+"UniversalProfilePhotoUpdateSuccess" = "Profile photo updated";
+"UniversalProfilePhotoUpdateFailed" = "Couldn't update photo";
