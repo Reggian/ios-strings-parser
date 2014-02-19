@@ -1,0 +1,11 @@
+/* /*
+foo
+
+bar
+*/
+"aaa" = "bbb";
+
+// foo // bar
+"foo" = "bar \\ \" \'";
+
+'bar' = 'baz \\ \' \"';
