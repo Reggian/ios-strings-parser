@@ -117,6 +117,3 @@ additional_for_regex_parser.strings:
   - :meta_key: "foo"
     :key: "bar \\ \" '"
     :comment: "foo // bar"
-  - :meta_key: "bar"
-    :key: "baz \\ ' \""
-    :comment: ""

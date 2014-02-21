@@ -7,7 +7,7 @@ module IosStringsParser
       |
       \/\/\s*(?<comment>.*?)\s*\n # single line comment
       |
-      ["'](?<meta_key>.*?)["']\s*=\s*["'](?<key>.*?)["']\s*; # string
+      "(?<meta_key>.*?)"\s*=\s*"(?<key>.*?)"\s*; # string
     /mx
 
     def parse(input)
