@@ -3,7 +3,7 @@ module IosStringsParser
     IosString = Struct.new(:meta_key, :key, :comment)
 
     REGEX = /
-      \/\*[\s\n]*(?<comment>.*?)[\s\n]*\*\/ # multi line comment
+      \/\*[\s]*(?<comment>.*?)[\s]*\*\/ # multi line comment
       |
       \/\/\s*(?<comment>.*?)\s*\n # single line comment
       |
