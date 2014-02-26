@@ -49,6 +49,8 @@ describe Parser do
   end
 
   Dir.glob(File.join(fixture_dir, "**/*.strings")).each do |fixture_file|
+    next if File.basename(fixture_file) == 'additional_for_regex_parser.strings'
+
     it "should parse #{fixture_file} correctly" do
       parser = IosStringsParser::Parser.new
       data = File.read(fixture_file)
